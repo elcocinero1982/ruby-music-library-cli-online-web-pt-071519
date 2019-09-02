@@ -7,8 +7,9 @@ class MusicImporter
 
 end  
  def files 
+   array = Dir.entries(path)
    binding.pry 
-   
+   Dir.entries(-path)
  end
   
   
